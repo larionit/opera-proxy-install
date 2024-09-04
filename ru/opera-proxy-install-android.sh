@@ -19,15 +19,15 @@ echo
 for package in "${dependency_packages[@]}"
 do
     if [[ ! -f "$target_dir/$package" ]]; then
-        echo "Package '$package' was not found. Installation..."
+        echo "Пакет '$package' не найден. Установка..."
         pkg install -y "$package" &> /dev/null 
             if [[ $? -eq 0 ]]; then
-                echo "Installation of '$package' completed successfully."
+                echo "Установка '$package' успешно завершена."
             else
-                echo "Error installing '$package'."
+                echo "Ошибка установки '$package'."
             fi
     else
-        echo "Package '$package' is already installed."
+        echo "Пакет '$package' уже установлен."
     fi
 done
 
@@ -61,39 +61,39 @@ if [[ -f $target_dir/$opera_proxy_bin ]]; then
             echo
             echo "~> opera-proxy-install-android.sh"
             echo
-            echo "Nothing to do!"
+            echo "Нечего делать!"
             echo
-            echo "Already installed: $current_version"
+            echo "Уже установленна версия: $current_version"
             echo
-            echo "Command to start proxy: $opera_proxy_bin"
+            echo "Команда для запуска прокси: $opera_proxy_bin"
             echo
             exit 0
         else
             rm $target_dir/$opera_proxy_bin
-            echo "Loading Release: $install_release"
+            echo "Загрузка релиза: $install_release"
             curl -fsSL $download_link -o $target_dir/$opera_proxy_bin  
             chmod +x $target_dir/$opera_proxy_bin
             clear
             echo
             echo "~> opera-proxy-install-android.sh"
             echo
-            echo "Found on device: $current_version"
+            echo "Найденая версия: $current_version"
             echo
-            echo "Updated to: $install_release"
+            echo "Обновлена до: $install_release"
             echo
-            echo "Command to start proxy: $opera_proxy_bin"
+            echo "Команда для запуска прокси: $opera_proxy_bin"
             echo
         fi
 else
-    echo "Loading Release: $install_release"
+    echo "Загрузка релиза: $install_release"
     curl -fsSL $download_link -o $target_dir/$opera_proxy_bin  
     chmod +x $target_dir/$opera_proxy_bin
     clear
     echo
     echo "~> opera-proxy-install-android.sh"
     echo
-    echo "Installed version: $install_release"
+    echo "Установленна версия: $install_release"
     echo
-    echo "Command to start proxy: $opera_proxy_bin"
+    echo "Команда для запуска прокси: $opera_proxy_bin"
     echo
 fi
