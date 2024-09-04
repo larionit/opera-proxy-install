@@ -71,3 +71,5 @@ opera-proxy
 5. Open the main page of the application and click on the `BIG BUTTON` in the center
 
 Done! You can check the result by going to the website [showmyip.com](https://showmyip.com/)
+
+</details>

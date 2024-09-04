@@ -26,9 +26,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install
 
 1. Установите [Termux](https://termux.dev/) из [Google play](https://play.google.com/store/apps/details?id=com.termux), [F-Droid](https://f-droid.org/en/packages/com.termux/) или [GitHub](https://github.com/termux/termux-app/releases)
 
-2. Установите [Adguard](https://adguard.com/en/adguard-android/overview.html) из  [GitHub](https://github.com/AdguardTeam/AdguardForAndroid/releases) или [Google Play *](https://play.google.com/store/apps/details?id=com.adguard.android.contentblocker)
-
-    *Примечание: недоступен для установки, если в google-аккаунте выбран регион Россия*
+2. Установите [Adguard](https://adguard.com/en/adguard-android/overview.html) из  [GitHub](https://github.com/AdguardTeam/AdguardForAndroid/releases)
 
 ### 2. Установка и запуск opera-proxy
 
@@ -72,3 +70,5 @@ opera-proxy
 5. Откройте главную страницу приложения и нажмите на `БОЛЬШУЮ КНОПКУ` в центре 
 
 Готово! Проверить результат можно перейдя на сайт [showmyip.com](https://showmyip.com/)
+
+</details>
