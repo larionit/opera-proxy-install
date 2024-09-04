@@ -20,7 +20,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install
 ```
 
 <details>
-  <summary>Нажмите, чтобы увидеть подробное пошаговое руководство.</summary>
+  <summary>Нажмите, чтобы увидеть подробное пошаговое руководство</summary>
 
 ### 1. Подготовка
 
