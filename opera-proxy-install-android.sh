@@ -67,6 +67,8 @@ if [[ -f $target_dir/$opera_proxy_bin ]]; then
             echo
             echo "Command to start proxy: $opera_proxy_bin"
             echo
+            echo "Stop proxy: CTRL + C"
+            echo
             exit 0
         else
             rm $target_dir/$opera_proxy_bin
@@ -83,6 +85,8 @@ if [[ -f $target_dir/$opera_proxy_bin ]]; then
             echo
             echo "Command to start proxy: $opera_proxy_bin"
             echo
+            echo "Stop proxy: CTRL + C"
+            echo
         fi
 else
     echo "Loading Release: $install_release"
@@ -95,5 +99,7 @@ else
     echo "Installed version: $install_release"
     echo
     echo "Command to start proxy: $opera_proxy_bin"
+    echo
+    echo "Stop proxy: CTRL + C"
     echo
 fi

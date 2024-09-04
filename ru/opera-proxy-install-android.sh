@@ -67,6 +67,8 @@ if [[ -f $target_dir/$opera_proxy_bin ]]; then
             echo
             echo "Команда для запуска прокси: $opera_proxy_bin"
             echo
+            echo "Остановить прокси: CTRL + C"
+            echo
             exit 0
         else
             rm $target_dir/$opera_proxy_bin
@@ -83,6 +85,8 @@ if [[ -f $target_dir/$opera_proxy_bin ]]; then
             echo
             echo "Команда для запуска прокси: $opera_proxy_bin"
             echo
+            echo "Остановить прокси: CTRL + C"
+            echo
         fi
 else
     echo "Загрузка релиза: $install_release"
@@ -95,5 +99,7 @@ else
     echo "Установленна версия: $install_release"
     echo
     echo "Команда для запуска прокси: $opera_proxy_bin"
+    echo
+    echo "Остановить прокси: CTRL + C"
     echo
 fi
