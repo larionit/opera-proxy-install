@@ -12,7 +12,7 @@ dependency_packages=(
 
 # Array loop
 for package in "${dependency_packages[@]}"; do
-  if [[ ! command -v "$package" &> /dev/null]]; then
+  if ! command -v "$file" &> /dev/null; then
     echo "File '$package' was not found. Installation..."
     pkg install -y "$package"
     if [[ $? -eq 0 ]]; then
