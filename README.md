@@ -16,7 +16,7 @@ Kudos to [Snawoot](https://github.com/Snawoot) for his amazing work!
 Open Termux and run:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/opera-proxy-install-android.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/main/opera-proxy-install-android.sh)
 ```
 
 <details>
@@ -34,7 +34,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install
 1. Open Termux and run this command:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/opera-proxy-install-android.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/main/opera-proxy-install-android.sh)
 ```
 
 ***Hint:*** *copy, paste and press enter*
