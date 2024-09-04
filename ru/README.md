@@ -5,7 +5,7 @@
 
 # opera-proxy-install
 
-Script for installing [opera-proxy](https://github.com/Snawoot/opera-proxy).
+Скрипт для установки [opera-proxy](https://github.com/Snawoot/opera-proxy).
 
 Честь и хвала [Snawoot](https://github.com/Snawoot) за его потрясающую работу!
 
@@ -16,7 +16,7 @@ Script for installing [opera-proxy](https://github.com/Snawoot/opera-proxy).
 Выполните в Termux:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/opera-proxy-install-android.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/ru/opera-proxy-install-android.sh)
 ```
 
 <details>
@@ -35,7 +35,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install
 1. Откройте Termux и выполните эту команду:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/opera-proxy-install-android.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/larionit/opera-proxy-install/dev/ru/opera-proxy-install-android.sh)
 ```
 
 ***Подсказка:*** *скопируйте, вставьте и нажмите Enter*
