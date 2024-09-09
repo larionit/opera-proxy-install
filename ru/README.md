@@ -5,6 +5,8 @@
 
 # opera-proxy-install
 
+<img align="left" width="70" height="70" src="https://github.com/user-attachments/assets/807b0ca2-151b-4a51-bf94-2b05d1d3b21c">
+
 Скрипт для установки [opera-proxy](https://github.com/Snawoot/opera-proxy).
 
 Честь и хвала [Snawoot](https://github.com/Snawoot) за его потрясающую работу!
